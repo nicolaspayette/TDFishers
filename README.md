@@ -10,6 +10,8 @@ The model is heavily inspired by the [POSEIDON](https://github.com/CarrKnight/PO
 
 ### How to run
 
+The model uses the [MASON](https://cs.gmu.edu/~eclab/projects/mason/) ABM platform and you will need at least Java 8 to run it.
+
 To launch from a \*nix shell, you can use the provided sbt launcher script: `./sbt run` (sbt will be downnloaded if needed). From Windows, you'll have to [get sbt 0.13.17](https://www.scala-sbt.org/download.html) yourself, make sure it's on your path, and call `sbt run`. Choose `np.tdfishers.gui.TDFishersGUI` at the little menu to get the version with a GUI.
 
 ### About the visualisation

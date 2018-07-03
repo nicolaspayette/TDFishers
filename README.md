@@ -1,5 +1,7 @@
 # TDFishers
 
+[![Build Status](https://travis-ci.org/nicolaspayette/TDFishers.svg?branch=master)](https://travis-ci.org/nicolaspayette/TDFishers)
+
 This is a toy model that I (mostly) wrote over the course of a weekend. It simulates a fishery: fishing boats go at sea, catch some fish, come back to port, sell the fish, and go out again. The twist is that fishers have to *learn* how to do all this.
 
 In order to do that, they use a temporal-difference (TD) reinforcement learning algorithm called [SARSA](https://en.wikipedia.org/wiki/State%E2%80%93action%E2%80%93reward%E2%80%93state%E2%80%93action) (for State-Action-Reward-State-Action). Fishers know only two things about their state: where they are, and whether or not their hold is full. At each time step, they take one of nine possible actions: stay where they are, or move to one of the eight adjacent grid cells (if possible). Staying where they are means trawling for fish if they are at sea or emptying their hold if they are at port. They get a negative reward for the fuel burned while at sea and they get a positive reward for fish caught when they empty their hold. That's all.

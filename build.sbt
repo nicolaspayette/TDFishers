@@ -10,6 +10,6 @@ lazy val root = (project in file("."))
       "org.jfree" % "jcommon" % "1.0.21",
       "com.lowagie" % "itext" % "1.2.3",
       "org.beanshell" % "bsh" % "2.0b4",
-      "edu.gmu.cs" % "mason" % "19.0" from "https://cs.gmu.edu/~eclab/projects/mason/mason.19.jar"
+      "edu.gmu.cs" % "mason" % "19.0" from "https://bintray.com/wjtan/maven/download_file?file_path=cs%2Fgmu%2Fedu%2Fmason%2F19.0%2Fmason.19.jar"
     )
   )
